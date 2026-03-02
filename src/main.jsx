@@ -12,7 +12,7 @@ import User from './User.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='/kirana/Dashboard'>
+    <BrowserRouter basename='/kirana/'>
       <div className='fullmain_container'>
 
         <div className='top_header_fixed'>
