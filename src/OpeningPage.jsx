@@ -1,5 +1,5 @@
 import React from 'react'
-import './OpeningPage.css'
+
 import image from './assets/react.svg'
 
 const OpeningPage = () => {

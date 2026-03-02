@@ -1,8 +1,7 @@
 import React from 'react'
-import './Header.css'
+
 import profile from './assets/profile.png'
 import notificationicon from './assets/notificationicon.png'
-import downarrowicon from './assets/downarrowicon.png'
 const Header = () => {
   return (
     <header className='header_full_container'>

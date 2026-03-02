@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './Sidebar.css'
+
 import {useNavigate}from 'react-router-dom'
 import inventoryicon from './assets/inventoryicon.png'
 import ordersicon from './assets/ordericon.png'
@@ -37,7 +37,7 @@ const Sidebar = () => {
    
     function select_single_display_function(item,index){
         setSelectPage(index);
-        navigate(`/${item.name.toLowerCase()}`)
+        navigate(`/${item.name}`)
     }
     
   return (

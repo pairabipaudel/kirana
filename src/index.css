@@ -418,6 +418,148 @@ body{
     border:1px solid black;
 }
 
+/* sidebar */
+
+.sidebar_full_container {
+   width:180px;
+    height:auto;
+    position:fixed;
+    top:70px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px; 
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    background-color: transparent;
+}
+
+.sidebar_single_display{
+    display: flex;
+    width: 180px;
+    gap:5px;
+    
+    align-items: center;
+    cursor: pointer;
+   padding: 10px 0px 10px 20px;
+    margin-right: 5px;
+    border-bottom:1px solid rgb(197, 189, 189);
+}
+
+.sidebar_single_display p{
+    font-size: var(--xsmall_font_size);
+    color: grey;
+}
+
+.sidebar_single_display img{
+    width: 30px;
+    height: 30px;
+}
+
+/*header*/
+.header_full_container{
+    width:100%;
+    height:70px;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:var(--secondary_background_color);
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header_logo_container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_logo_container p{
+    font-size: var(--medium_font_size);
+    font-weight: bold;
+   color:white;
+
+}
+
+.header_nav_container{
+    display: flex;
+    
+    align-items: center;
+}
+
+.header_profile_container{
+    display: flex;
+    margin-left: var(--medium_margin);
+    align-items: center;
+}
+
+.notification_icon{
+    width: 24px;
+    height: 25px;
+}
+
+.profile_picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+/* openingpage */
+.openingPage_full_container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.openingPage_full_container img{
+    width:200px;
+    height:200px;
+}
+
+.openingPage_full_container button{
+    width:100px;
+    height:40px;
+    font-size:16px;
+    cursor:pointer;
+    background-color: #e7f5ff;
+    color: #4dabf7;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    box-shadow: inset 0 2px 5px rgba(240,240,240,1),
+    2px 5px 5px rgb(203, 202, 202)
+    ;
+
+}
+
+/* loginPage */
+.loginPage_full_container{
+    display: flex;
+    width: 100%;
+    height: 100vh; 
+}
+
+.login_title p{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+
+
 
 
 

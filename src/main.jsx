@@ -25,6 +25,8 @@ createRoot(document.getElementById('root')).render(
 
         <div className='main_content'>
           <Routes>
+             <Route path="/" element={<Dashboard />} />
+  
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/Inventory" element={<Inventory />} />
             <Route path="/Orders" element={<Orders />} />
